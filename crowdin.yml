@@ -1,0 +1,14 @@
+"project_id": "7"
+"base_path": "."
+"api_token_env": "CROWDIN_PERSONAL_TOKEN"
+"base_url_env": "CROWDIN_BASE_URL"
+
+"preserve_hierarchy": true
+
+files:
+  - source: "/libs/**/locale/en-US.json"
+    # Where translations will be placed
+    # e.g. "/locale/%two_letters_code%/%original_file_name%"
+    translation: "/%original_path%/%locale%.json"
+    export_only_approved: true
+    skip_untranslated_strings: true

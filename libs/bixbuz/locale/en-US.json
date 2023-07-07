@@ -1,0 +1,4 @@
+{
+  "bar_a": "my friends, this is a VERY DIFFERENT AND CHANGED {translation}",
+  "bar_b": "my enemies, i love you this much: {amount, select, lots {a whole bunch} other {not at all}}."
+}
